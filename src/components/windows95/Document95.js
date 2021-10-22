@@ -1,17 +1,17 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import FolderImage from '../../assets/FolderW10.svg'
+import DocumentImage from '../../assets/Document95.svg';
 
-export default function FolderW10({ label, className }) {
+export default function Document95({ label, className }) {
     return (
         <div className={['text-center w-14', className].join(' ')}>
-            <img src={FolderImage} alt="Folder Icon" />
+            <img src={DocumentImage} alt="Document Icon" />
             <h4 className="text-sm">{label}</h4>
         </div>
     );
 }
 
-FolderW10.propTypes = {
+Document95.propTypes = {
     label: PropTypes.string.isRequired,
     className: PropTypes.string
-};
+}

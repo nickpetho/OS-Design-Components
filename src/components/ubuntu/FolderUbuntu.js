@@ -1,8 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import FolderImage from '../../assets/FolderW10.svg'
+import FolderImage from '../../assets/FolderUbuntu.svg'
 
-export default function FolderW10({ label, className }) {
+export default function FolderUbuntu({ label, className }) {
     return (
         <div className={['text-center w-14', className].join(' ')}>
             <img src={FolderImage} alt="Folder Icon" />
@@ -11,7 +11,7 @@ export default function FolderW10({ label, className }) {
     );
 }
 
-FolderW10.propTypes = {
+FolderUbuntu.propTypes = {
     label: PropTypes.string.isRequired,
     className: PropTypes.string
 };

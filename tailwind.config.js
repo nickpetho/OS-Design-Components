@@ -19,6 +19,7 @@ module.exports = {
           MacTaskbar: 'rgba(113,128,150, .85)',
           MacWindow: '#D7D7D7',
           MacWindowBG: '#ECECEC',
+          MacBanner: '#cbd5e0',
           LinuxTaskbar: 'rgba(0,0,0, .75)'
         },
         blue: {
@@ -47,9 +48,6 @@ module.exports = {
           900: '#04264C'
         }
       }
-    },
-    fontFamily: {
-      sans: ['Source Code Pro', 'monospace']
     },
     fontSize: {
       ...fontSize,

@@ -35,13 +35,17 @@
     ]
   },
   "devDependencies": {
+    "@babel/core": "^7.15.8",
+    "@craco/craco": "^6.3.0",
     "@storybook/addon-actions": "^6.3.12",
     "@storybook/addon-essentials": "^6.3.12",
     "@storybook/addon-links": "^6.3.12",
+    "@storybook/addon-postcss": "^2.0.0",
     "@storybook/node-logger": "^6.3.12",
     "@storybook/preset-create-react-app": "^3.2.0",
     "@storybook/react": "^6.3.12",
     "autoprefixer": "^9.8.8",
+    "babel-loader": "^8.2.3",
     "postcss": "^7.0.39",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
@@ -57,7 +61,6 @@
     "web-vitals": "^1.0.1"
   },
   "dependencies": {
-    "@craco/craco": "^6.3.0",
-    "@storybook/addon-postcss": "^2.0.0"
+    "react-onclickoutside": "^6.12.0"
   }
 }

@@ -1,17 +1,17 @@
 import React, { useState } from 'react';
 import onClickOutside from 'react-onclickoutside';
-import TaskbarW10, { TaskIconW10 } from './TaskbarW10';
+import Taskbar95, { TaskIcon95 } from './Taskbar95';
 import LinkedInLogo from '../../assets/linkedin-logo.svg';
 import GithubLogo from '../../assets/github-logo.svg';
 
-function StartW10({ children, ...props }) {
+function Start95({ children, ...props }) {
     const [isStartMenuOpen, setIsStartMenuOpen] = useState(false);
 
     function enableStartMenu() {
         setIsStartMenuOpen(true);
     }
 
-    StartW10.disableStartMenu = () => {
+    Start95.disableStartMenu = () => {
         setIsStartMenuOpen(false);
     }
 
@@ -20,22 +20,22 @@ function StartW10({ children, ...props }) {
             <div>
                 {isStartMenuOpen && children}
             </div>
-            <TaskbarW10 onLogoClick={enableStartMenu}>
-                <TaskIconW10>
+            <Taskbar95 onLogoClick={enableStartMenu}>
+                <TaskIcon95>
                     <img className="w-10 p-2" src={LinkedInLogo} alt="LinkedIn Logo" />
-                </TaskIconW10>
-                <TaskIconW10>
+                </TaskIcon95>
+                <TaskIcon95>
                     <img className="w-10 p-2" src={GithubLogo} alt="Github Logo" />
-                </TaskIconW10>
-            </TaskbarW10>
+                </TaskIcon95>
+            </Taskbar95>
         </div>
     );
 }
 
 const clickOutsideConfig = {
     handleClickOutside: () => (
-        StartW10.disableStartMenu
+        Start95.disableStartMenu
     )
 }
 
-export default onClickOutside(StartW10, clickOutsideConfig);
+export default onClickOutside(Start95, clickOutsideConfig);

@@ -19,6 +19,7 @@ module.exports = {
           Windows7: '#A5C2DF',
           Windows7Highlight: '#D7E8F8',
           MacTaskbar: 'rgba(113,128,150, .85)',
+          MacTaskIcon: '#a0aec0',
           MacWindow: '#D7D7D7',
           MacWindowBG: '#ECECEC',
           MacBanner: '#cbd5e0',

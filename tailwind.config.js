@@ -16,27 +16,39 @@ module.exports = {
           Windows10Taskbar: '#1a202c',
           Windows95: '#C1C1C1',
           Windows95Start: '#808080',
+          Windows95Window: '#BFC7C9',
+          Windows95WindowHover: '#A9B1B3',
           Windows7: '#A5C2DF',
           Windows7Highlight: '#D7E8F8',
+          Windows7Button: '#BECBDD',
           MacTaskbar: 'rgba(113,128,150, .85)',
           MacTaskIcon: '#a0aec0',
           MacWindow: '#D7D7D7',
           MacWindowBG: '#ECECEC',
           MacBanner: '#cbd5e0',
-          LinuxTaskbar: 'rgba(0,0,0, .75)'
+          LinuxTaskbar: 'rgba(0,0,0, .75)',
+          UbuntuWindow: '#4D4B43'
         },
         blue: {
           ...colors.blue,
           XP: '#245EDC',
+          XPButton: '#4277F5',
+          XPButtonHighlight: '#6791F4',
           Highlight: '#2494DC',
           XPStartHighlight: '#326BC5',
           XPLogOff: '#0843C3',
-          W95Start: '#010A7F'
+          W95Start: '#010A7F',
+          W95WindowBar: '#0011A7'
         },
         green: {
           ...colors.green,
           XP_Start: '#46AA49',
           StartHighlight: '#228b20'
+        },
+        red: {
+          ...colors.red,
+          closeButton: '#E71122',
+          closeButtonHighlight: '#E6643D'
         },
         macbutton: {
           50: '#F3F9FF',

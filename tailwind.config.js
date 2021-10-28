@@ -14,6 +14,7 @@ module.exports = {
           Windows10: '#525E73',
           Windows10TaskIcon: '#2d3748',
           Windows10Taskbar: '#1a202c',
+          Windows10WindowHighlight: "#5A5A55",
           Windows95: '#C1C1C1',
           Windows95Start: '#808080',
           Windows95Window: '#BFC7C9',

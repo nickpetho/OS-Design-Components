@@ -29,12 +29,12 @@ export default function WindowW10({ onCloseClick, label, children, className, ..
             <div className="flex flex-col bg-gray-Windows10TaskIcon h-full">
                 <div className="h-8 3xl:h-12 4xl:h-20 bg-black flex items-center">
                     <div className="flex mr-auto invisible">
-                        <button className="h-8 w-16 cursor-default bg-black hover:bg-gray-Windows10 text-white">
+                        <button className="h-8 w-16 cursor-default bg-black hover:bg-gray-Windows10WindowHighlight text-white">
                             <svg className="overflow-visible" height="1" width="10">
                                 <rect x="26" y="0" height="1" width="10" stroke="#ffffff" />
                             </svg>
                         </button>
-                        <button className="h-8 w-16 cursor-default bg-black hover:bg-gray-Windows10 text-white">
+                        <button className="h-8 w-16 cursor-default bg-black hover:bg-gray-Windows10WindowHighlight text-white">
                             <svg className="overflow-visible" fill="none" height="10" width="10">
                                 <rect x="26" y="0" height="10" width="10" stroke="#ffffff" />
                             </svg>
@@ -45,12 +45,12 @@ export default function WindowW10({ onCloseClick, label, children, className, ..
                     </div>
                     <div className="font-medium 3xl:text-2xl 4xl:text-5xl text-white">{label}</div>
                     <div className="flex ml-auto">
-                        <button className="h-8 w-16 cursor-default transition duration-300 ease-in-out bg-black hover:bg-gray-Windows10 text-white">
+                        <button className="h-8 w-16 cursor-default transition duration-300 ease-in-out bg-black hover:bg-gray-Windows10WindowHighlight text-white">
                             <svg className="overflow-visible" height="1" width="10">
                                 <rect x="26" y="0" height="1" width="10" stroke="#ffffff" />
                             </svg>
                         </button>
-                        <button className="h-8 w-16 cursor-default transition duration-300 ease-in-out bg-black hover:bg-gray-Windows10 text-white">
+                        <button className="h-8 w-16 cursor-default transition duration-300 ease-in-out bg-black hover:bg-gray-Windows10WindowHighlight text-white">
                             <svg className="overflow-visible" fill="none" height="10" width="10">
                                 <rect x="26" y="0" height="10" width="10" stroke="#ffffff" />
                             </svg>
